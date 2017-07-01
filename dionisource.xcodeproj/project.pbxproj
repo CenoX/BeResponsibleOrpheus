@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C07F73F41F0818B600B9F036 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C07F73F31F0818B600B9F036 /* main.c */; };
+		C07F73FC1F081AC000B9F036 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C07F73FB1F081AC000B9F036 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		C07F73F01F0818B600B9F036 /* dionisource */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dionisource; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07F73F31F0818B600B9F036 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C07F73FA1F0818C800B9F036 /* source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = source.h; sourceTree = "<group>"; };
+		C07F73FB1F081AC000B9F036 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			children = (
 				C07F73F21F0818B600B9F036 /* dionisource */,
 				C07F73F11F0818B600B9F036 /* Products */,
+				C07F73FB1F081AC000B9F036 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07F73FC1F081AC000B9F036 /* README.md in Sources */,
 				C07F73F41F0818B600B9F036 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
